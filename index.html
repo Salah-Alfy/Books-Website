@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <!-- we must delete the customization from here before css customization -->
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="images/mlogo.png" height="40"> Mizuxe</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav  ml-auto ">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Meet the authors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div><!-- collapse -->
+    </div>
+  </nav>
+
+  <header>
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-6 text-center mt-5 pt-5">
+          <h1 class="text-white mb-3 text-uppercase">Lorem ipsum dolor, sit amet consectetur adipisicing.</h1>
+          <a href="" class="btn btn-outline-light btn-lg">Read More</a>
+
+        </div><!-- left -->
+
+        <div class="col-md-6">
+          <img src="images/book.png" class="w-75 wow bounceIn">
+
+        </div><!-- right -->
+
+      </div><!-- row -->
+
+    </div>
+  </header>
+
+  <section class="bg-dark py-5">
+    <div class="container">
+      <form>
+        <!-- the form must be out of the row in this case -->
+        <div class="row">
+
+          <div class=" col-sm-4 my-3">
+            <input type="text" class="form-control form-control-lg " placeholder="Name">
+          </div><!-- name -->
+
+          <div class="col-sm-4 my-3">
+            <input type="email" class="form-control form-control-lg " placeholder="Email">
+          </div><!-- email -->
+
+          <div class="col-sm-4 my-3">
+            <button type="submit" class=" btn-primary btn btn-lg btn-block " placeholder="Name"> <i class="fa fa-envelope mr-3"></i>
+              Subscribe</button>
+          </div><!-- SubscribeButton -->
+
+        </div><!-- row -->
+      </form>
+    </div>
+  </section> <!-- subscribe -->
+
+
+  <section class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-3 col-sm-6 wow bounceIn my-2 " data-wow-duration="1s" data-wow-delay="2s">
+          <div class="card border-primary">
+            <!-- we make card because it have border -->
+            <div class="card-body text-center">
+              <h3 class="text-primary font-weight-bold">Be Better</h3>
+              <p class="text-muted lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi!</p>
+            </div><!-- card-body it give auto padding -->
+          </div><!-- card -->
+        </div><!-- 1 -->
+
+        <div class="col-md-3 col-sm-6 wow bounceIn my-2 " data-wow-duration="1s" data-wow-delay="3s">
+          <div class="card border-primary bg-primary text-white">
+            <div class="card-body text-center">
+              <h3 class="font-weight-bold">Be Smarter</h3>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi!</p>
+            </div><!-- card-body -->
+          </div><!-- card -->
+        </div><!-- 2 -->
+
+        <div class="col-md-3 col-sm-6 wow bounceIn my-2 " data-wow-duration="1s" data-wow-delay="4s">
+          <div class="card border-primary">
+            <div class="card-body text-center">
+              <h3 class="text-primary font-weight-bold">Be Faster</h3>
+              <p class="text-muted lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi!</p>
+            </div><!-- card-body it give auto padding -->
+          </div><!-- card -->
+        </div><!-- 3 -->
+
+        <div class="col-md-3 col-sm-6 wow bounceIn my-2 " data-wow-duration="1s" data-wow-delay="5s">
+          <div class="card border-primary bg-primary text-white">
+            <div class="card-body text-center">
+              <h3 class="font-weight-bold">Be Stronger</h3>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi!</p>
+            </div><!-- card-body -->
+          </div><!-- card -->
+        </div><!-- 4 -->
+
+
+      </div><!-- row -->
+    </div> <!-- container -->
+
+  </section><!-- benifits -->
+
+
+  <section class="py-5">
+    <div class="w-50 mx-auto text-center border-bottom">
+      <h2 class="text-primary mb-3">Why This Book ?</h2>
+      <p class="lead pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit obcaecati aliquid nemo vel,
+        totam fuga.</p>
+    </div>
+
+  </section>
+
+  <section>
+    <div class="container">
+
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse"
+                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <i class="fa fa-arrow-circle-down"></i> Get Inspired
+              </button>
+            </h2>
+          </div><!-- card header -->
+
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+              moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+              Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+              shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+              proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+              aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div><!-- card-body -->
+          </div>
+        </div><!-- card1 -->
+
+
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <i class="fa fa-arrow-circle-down"></i> Get Inspired
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+              moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+              Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+              shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+              proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+              aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div><!-- card2 -->
+
+
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse"
+                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <i class="fa fa-arrow-circle-down"></i> Get Inspired
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+              moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+              Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+              shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+              proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+              aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div><!-- card3 -->
+      </div>
+    </div>
+  </section>
+
+
+  <section class="py-5">
+    <div class="w-50 mx-auto text-center border-bottom">
+      <h2 class="text-primary mb-3">Meet The Authors ?</h2>
+      <p class="lead pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit obcaecati aliquid nemo vel,
+        totam fuga.</p>
+    </div>
+  </section>
+
+
+
+
+  <section class="py-5 " id="authors">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-4 col-sm-6 my-5">
+          <div class="card">
+            <div class="card-body text-center">
+              <img src="images/person1.jpg" class="w-50 rounded-circle" alt="">
+              <h3 class="my-3">Susan Williams</h3>
+              <h5 class="mb-3">Lead Writer</h5>
+              <p class="lead mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, sit.</p>
+
+              <div class="d-flex justify-content-around">
+                <!-- we make d-felx to make icon in one line and justify to make the spaces around equal and justify work only with d-flex -->
+                <a href="#"> <i class="fab fa-facebook fa-2x"></i> </a>
+                <a href="#"> <i class="fab fa-twitter fa-2x"></i> </a>
+                <a href="#"> <i class="fab fa-google fa-2x"></i> </a>
+              </div><!-- social -->
+
+            </div><!-- card body -->
+          </div><!-- card -->
+        </div><!-- 1 -->
+
+        <div class="col-lg-3 col-md-4 col-sm-6 my-5">
+          <div class="card">
+            <div class="card-body text-center">
+              <img src="images/person2.jpg" class="w-50 rounded-circle" alt="">
+              <h3 class="my-3">Susan Williams</h3>
+              <h5 class="mb-3">Lead Writer</h5>
+              <p class="lead mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, sit.</p>
+
+              <div class="d-flex justify-content-around">
+                <a href="#"> <i class="fab fa-facebook fa-2x"></i> </a>
+                <a href="#"> <i class="fab fa-twitter fa-2x"></i> </a>
+                <a href="#"> <i class="fab fa-google fa-2x"></i> </a>
+              </div><!-- social -->
+
+            </div><!-- card body -->
+          </div><!-- card -->
+        </div><!-- 2 -->
+
+        <div class="col-lg-3 col-md-4 col-sm-6 my-5">
+          <div class="card">
+            <div class="card-body text-center">
+              <img src="images/person3.jpg" class="w-50 rounded-circle" alt="">
+              <h3 class="my-3">Susan Williams</h3>
+              <h5 class="mb-3">Lead Writer</h5>
+              <p class="lead mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, sit.</p>
+
+              <div class="d-flex justify-content-around">
+                <a href="#"> <i class="fab fa-facebook fa-2x"></i> </a>
+                <a href="#"> <i class="fab fa-twitter fa-2x"></i> </a>
+                <a href="#"> <i class="fab fa-google fa-2x"></i> </a>
+              </div><!-- social -->
+
+            </div><!-- card body -->
+          </div><!-- card -->
+        </div><!-- 3 -->
+
+        <div class="col-lg-3 col-md-4 col-sm-6 my-5">
+          <div class="card">
+            <div class="card-body text-center">
+              <img src="images/person4.jpg" class="w-50 rounded-circle" alt="">
+              <h3 class="my-3">Susan Williams</h3>
+              <h5 class="mb-3">Lead Writer</h5>
+              <p class="lead mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, sit.</p>
+
+              <div class="d-flex justify-content-around">
+                <a href="#"> <i class="fab fa-facebook fa-2x"></i> </a>
+                <a href="#"> <i class="fab fa-twitter fa-2x"></i> </a>
+                <a href="#"> <i class="fab fa-google fa-2x"></i> </a>
+              </div><!-- social -->
+
+            </div><!-- card body -->
+          </div><!-- card -->
+        </div><!-- 4 -->
+
+
+      </div><!-- row -->
+
+
+    </div><!-- authors -->
+
+  </section>
+
+
+
+  <section class="bg-light py-5" id="contacts">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-9">
+          <h2 class="font-weight-bold">Get In Touch</h2>
+          <p class="text-muted lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus quam eius ea?</p>
+
+          <form>
+
+            <div class="col-auto">
+              <label class="sr-only" for="inlineFormInputGroup">Username</label>
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text"> <i class="fa fa-user"> </i></div>
+                </div>
+                <input type="text" class="form-control form-control-lg" id="inlineFormInputGroup" placeholder="Name">
+              </div>
+            </div><!-- UserName -->
+
+            <div class="col-auto">
+              <label class="sr-only" for="inlineFormInputGroup">Email</label>
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text"> <i class="fa fa-envelope"> </i></div>
+                </div>
+                <input type="email" class="form-control form-control-lg" id="inlineFormInputGroup" placeholder="Email">
+              </div>
+            </div><!-- email -->
+
+            <div class="col-auto">
+              <label class="sr-only" for="inlineFormInputGroup">Username</label>
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text"> <i class="fa fa-pencil-alt"> </i></div>
+                </div>
+                <textarea rows="5" class="form-control form-control-lg" id="inlineFormInputGroup" placeholder="Message"></textarea>
+              </div>
+            </div><!-- message -->
+
+            <div class="col-auto">
+              <button type="submit" class="btn btn-lg btn-primary btn-block">Submit</button>
+
+            </div>
+
+          </form><!-- form -->
+
+        </div><!-- left form -->
+
+        <div class="col-md-3">
+          <img src="images/mlogo.png" class="img-fluid" alt="">
+          
+
+        </div><!-- right logo -->
+
+      </div><!-- row -->
+
+    </div><!-- container -->
+
+  </section><!-- #contacts -->
+
+
+
+  <footer class="bg-primary text-center text-white py-5">
+    <p>Mizuxe &copy;2020</p>
+
+  </footer>
+
+
+
+
+  <script src="js/jquery-3.5.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+    </script> <!-- this that run wow when the page open -->
+
+</body>
+
+</html>

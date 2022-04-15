@@ -1,0 +1,17 @@
+
+.navbar{
+    /* box-shadow: x y blur color; */
+    box-shadow: 0 3px 10px #5BA8B7 ;
+}
+
+header{
+    background-image: linear-gradient(rgba(91, 168, 183,.7),rgba(91, 168, 183,.7)), url(../images/mountains.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#authors img{
+    margin-top: -80px;
+
+}
